@@ -1,0 +1,15 @@
+# [START runtime]
+runtime: nodejs10
+
+handlers:
+- url: /
+  static_files: dist/index.html 
+  upload: dist/index.html
+
+- url: / 
+  static_dir: dist
+
+manual_scaling:
+  instances: 1
+# [END runtime]
+
