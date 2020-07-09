@@ -15,7 +15,7 @@ export const ELEMENT_DATA: EntrepreneurElement[] = [
         name: 'FROGS',
         owner: 'Melissa Mena',
         phone: '981028572',
-        category: 'Ropa',
+        category: 'Ropa Niños',
         symbol: './assets/images/frogs-symbol.jpg',
         description: `Ropa para divertirse - niñas y niños. Consulta por el catalogo actulizado`,
         fanpage: 'https://www.facebook.com/frogsclothing/'
@@ -106,8 +106,18 @@ export const ELEMENT_DATA: EntrepreneurElement[] = [
         phone: '989032616',
         category: 'App Gastronomica',
         symbol: './assets/images/mesa24_7-symbol.png',
-        description: `Reserva facil. Disfruta mas. Reservas Online en los mejores restaurantes del Peru. reserva tu mesa gratis`,
+        description: `Reserva facil. Disfruta mas. Reservas Online en los mejores restaurantes del Peru. Reserva tu mesa gratis`,
         fanpage: 'https://m.mesa247.pe/#/'
+    },
+    {
+        id: 11,
+        name: 'QARPAMUY',
+        owner: 'Francisco Acha',
+        phone: '992568226',
+        category: 'Agroindustria',
+        symbol: './assets/images/qarpamuy-symbol.jpg',
+        description: `Especialistas aplicando tecnología avanzada para aprovechar al máximo el recurso hídrico. Brindamos servicios a transnacionales agroexportadoras, así como a pequeños agricultores de todo el país.`,
+        fanpage: 'http://www.qarpamuy.com/'
     },
 
 ];

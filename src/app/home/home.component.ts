@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { MatPaginator } from '@angular/material/paginator';
-import {MatSort} from '@angular/material/sort';
+import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 
 // services as internal data - use an API in second version
@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
   dataSource: MatTableDataSource<EntrepreneurElement>;
   columnsToDisplay = ['id', 'name', 'owner', 'phone','category'];
   expandedElement: EntrepreneurElement | null;
+  searchKey: string;
 
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
   @ViewChild(MatSort, {static: true}) sort: MatSort;
@@ -32,12 +33,25 @@ export class HomeComponent implements OnInit {
   private whatsappURL: string = "https://wa.me/51";
   
   constructor() {
-    this.dataSource = new MatTableDataSource(ELEMENT_DATA);;
+    this.dataSource = new MatTableDataSource(ELEMENT_DATA);
   }
 
   ngOnInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
+  }
+
+  onSearchClear() {
+    this.searchKey = "";
+    this.applyFilter();
+  }
+  
+  applyFilter() {
+    this.dataSource.filter = this.searchKey.trim().toLowerCase();
+
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
   }
 
 }

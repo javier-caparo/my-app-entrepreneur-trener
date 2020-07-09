@@ -1,5 +1,12 @@
-.menu-spacer {
-    margin-left: 20px;
+div.container{
+    margin: 5px 5px ;
 }
 
-.material-icons.orange600 { color: #FB8C00; }
+.menu-spacer {
+    margin-left: 10px;
+    flex: 1 1 auto;
+}
+
+.mat-toolbar-row {
+    font-size: 12px;
+}
