@@ -1,27 +1,28 @@
 # MyAppTrener
 
+## Description
+* this project was done to help to Entrepreneur families belonging to TRENER's COLEGE SCHOOL in Lima, Peru . 
+* It's purpose is just facilitate an easy access to a directory list pf small business to find them easy.
+* Made with Angular 9.1 Software Framework and builded in GCP App Engine as a Serverless App to run publicly.
+
+## Where is running
+
+* Currenly it was deployed in GCP App Engine Service . You can fodun it on this URL direction
+```sh
+https://superb-infusion-281817.wl.r.appspot.com/
+```
+
+## Screenshoot index.html
+[![ScreenShot WebApp](https://storage.googleapis.com/my-app-trener-public-images/webapp-image.jpg)]
+
+
+
+## How was made it ?
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
-## Development server
+and was build to be executed on GCP App Engine Service as a Serverless App [GCP App Engine](https://cloud.google.com/appengine)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[![GCP Logo](https://storage.googleapis.com/my-app-trener-public-images/cloud-logo.svg)]
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Any other interesting things 
