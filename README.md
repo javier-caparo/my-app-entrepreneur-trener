@@ -25,4 +25,13 @@ and was build to be executed on GCP App Engine Service as a Serverless App [GCP 
 
 [![GCP Logo](https://storage.googleapis.com/my-app-trener-public-images/cloud-logo.svg)]
 
-## Any other interesting things 
+## Any other interesting things
+- It has some basic Unitary Tests usign [Karma & Jasmine](https://angular.io/guide/testing)
+- and also E2E Tests with [Cypress](https://www.cypress.io/)
+- and integrates with Ci/CD using [CircleCI](https://circleci.com/)
+
+## Lessons Learned
+- Angular MAterial it's great.
+- We can perform an improvement using NgRX later... :)
+
+- And stay safe at home durign these hard times!!!!
